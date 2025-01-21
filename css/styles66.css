@@ -1,17 +1,28 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #000;
+  background-color: #000;color:#fff;
   }
-.header,.wi,.item { background-color: #003344;color:#FFB300;font-weight:bold;font-size:20px ;border-style:solid;border-color:#007799;border-width:1px;}
-.wi-head , .item-head { background-color: #003344;color:white;font-weight:bold;font-size:20px ; border-style:solid;border-color:#007799;border-width:1px;}
+.wi,.item { background-color: #003344;color:#FFB300;font-weight:bold;font-size:20px ;border-style:solid;border-color:#007799;border-width:1px;}
+.wi head , .item head { background-color: #003344;color:white;font-weight:bold;font-size:20px ; border-style:solid;border-color:#007799;border-width:1px;}
 <!-- .wi {color:ffb300;font-weight:bold;font-size:20px} --> 
 .head-items {
   display:flex;
 }
-.p-item,.s-item {
+
+.data-items {
+  display:flex ;
+  margin:5px ;
+}
+
+.items {
   flex:none;
   width:20%;
+}
+
+.item,.wi {
+  flex:none;
+  width:95%;
 }
 #myProgress1 {
   width: 95%;
@@ -26,16 +37,12 @@ body {
   position:absolute;
   }
 
+
 #wrap {
   background-color: #ddd;
   height:20px;
   position: absolute;
   }
-
-.data-items {
-  display:flex ;
-  margin:5px ;
-}
 
 /*
 .view-items {
