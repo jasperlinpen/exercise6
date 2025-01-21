@@ -11398,11 +11398,11 @@ html {
  }
 
  
-#hiddenElement,#hiddenElement1,#hiddenElement2,#hiddenElement3,#hiddenMsg1 {
+#hiddenElement,#ymsitem-elem1,#hiddenElement2,#hiddenElement3,#ymsitem-msg {
      display: none; /* Initially hide the element */
 }
         
-#hiddenMsg1 {
+#ymsitem-msg {
      display: none; /* Initially hide the element */
 	 font-size:0.5rem;
 }
