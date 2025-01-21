@@ -3,8 +3,7 @@ body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #000;color:#fff;
   }
-.wi,.item { background-color: #003344;color:#FFB300;font-weight:bold;font-size:20px ;border-style:solid;border-color:#007799;border-width:1px;}
-.wi head , .item head { background-color: #003344;color:white;font-weight:bold;font-size:20px ; border-style:solid;border-color:#007799;border-width:1px;}
+.wi head , .item head { background-color: #003344;color:white;font-weight:bold;font-size:20px;border-style:solid;border-color:#007799;border-width:1px;}
 <!-- .wi {color:ffb300;font-weight:bold;font-size:20px} --> 
 .head-items {
   display:flex;
@@ -20,9 +19,14 @@ body {
   width:20%;
 }
 
-.item,.wi {
-  flex:none;
-  width:95%;
+.wi,.item {
+ background-color:#003344;
+ color:#FFB300;
+ font-weight:bold;
+ font-size:20px;border-style:solid;
+ border-color:#007799;
+ border-width:1px;
+ width:95%;
 }
 #myProgress1 {
   width: 95%;
