@@ -88,7 +88,7 @@ let show_YearRpt="" , show_SeasonRpt="" , show_MonthRpt="" , tr_line="" , itemYe
                if (key1 === 'data') {
                //  $('ul').append('<li>'+item1+'</li>');
               var itemData = item1 ;
-         span_rpt="<span class='span_rpt'>(<button onclick='showElement(1102);'>M</button>)</span><span class='span_rpt'>(<a href='./revenueS.json'>S</a>)</span><span class='span_rpt'>(<a href='./revenueY.json'>Y</a>)</span>" ; 	          
+              span_rpt="<span class='span_rpt'>(<button onclick='showElement(1102);'>M</button>)</span>" ; 	          
               $.each(itemData,function(key2,item2){
                 if (key2  === 'quote' ) {
                     var itemData2 = item2;
